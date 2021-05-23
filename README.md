@@ -1,1 +1,1 @@
-# 10-apps-udemy-python
+# ten-apps-udemy-py
