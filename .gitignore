@@ -1,0 +1,14 @@
+# Python Development
+
+# A test file
+test.py
+
+# Python Development
+*__pycache__*
+.idea
+*.ipynb_checkpoints*
+venv
+#IDE 
+*.vscode*
+workspace.code-workspace
+
