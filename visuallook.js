@@ -1040,11 +1040,9 @@ looker.plugins.visualizations.add({
         this.elementRef = element;
     },
     // Render in response to the data or settings changing
-    update(data, element, config, queryResponse) {
-        console.log( 'data', data );
-        console.log( 'element', element );
-        console.log( 'config', config );
-        console.log( 'queryResponse', queryResponse );
+    update() {
+        
+        console.log( "Hello Antonio" );
         const errors = handleErrors(this, queryResponse, {
             // min_pivots: 0,
             // max_pivots: 0,
