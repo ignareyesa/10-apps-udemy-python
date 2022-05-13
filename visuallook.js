@@ -1035,24 +1035,12 @@ looker.plugins.visualizations.add({
             default: 'Default Text'
         }
     },
+                                                                             
+    console.log("Hola Antonio")
     // Set up the initial state of the visualization
     create(element, config) {
         this.elementRef = element;
     },
     // Render in response to the data or settings changing
-    update() {
-        
-        console.log( "Hello Antonio" );
-        const errors = handleErrors(this, queryResponse, {
-            // min_pivots: 0,
-            // max_pivots: 0,
-            // min_dimensions: 1,
-            // max_dimensions: 1,
-            // min_measures: 1,
-            // max_measures: 1
-        });
-        if (errors) { // errors === true means no errors
-            element.innerHTML = 'Hello Looker!';
-        }
-    }
+   
 });
