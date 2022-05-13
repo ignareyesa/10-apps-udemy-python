@@ -15,9 +15,11 @@ looker.plugins.visualizations.add({
                                                                              
     console.log("Hola Antonio")
     // Set up the initial state of the visualization
-    create(element, config) {
-        this.elementRef = element;
-    },
+    // create(element, config) {
+    //    this.elementRef = element;
+    // },
     // Render in response to the data or settings changing
    
 });
+
+
